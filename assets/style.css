@@ -130,6 +130,38 @@ li .nav-link {
 /* testimonial */
 
 #testimonial {
-    height: 1089px;
+    height: 589px;
+    padding: 120px 0 100px 0;
+    background: #F2F2F2;
+}
+
+#testimonial .photo {
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#testimonial .testimonial-item {
+    width: 50%;
+    margin: auto;
+}
+
+#testimonial .carousel-indicators {
+    top: 350px;
+}
+
+#testimonial .carousel-indicators li {
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+/* clients */
+
+#clients {
+    height: 289px;
+    padding: 120px 0 100px 0;
     background: #F2F2F2;
 }
