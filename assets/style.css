@@ -4,11 +4,21 @@ body {
 
 /* hero */
 #hero {
-    background-image: url(../img/Hero.png);
-    background-blend-mode: lighten;
-    background-size: cover;
+
+    background-image: url(../img/orang-biru.png), url(../img/orang-kuning.png), url(../img/orang-merah.png), url(../img/Bintang.png), url(../img/planet-merah.png), url(../img/planet-biru.png), url(../img/planet-kuning.png);
     background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
     height: 100vh;
+    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.gradient {
+    background: rgb(27, 23, 48);
+    background: linear-gradient(90deg, rgba(27, 23, 48, 1) 0%, rgba(9, 51, 65, 1) 100%) !important;
 }
 
 li .nav-link {
