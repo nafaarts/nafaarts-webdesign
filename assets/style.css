@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* hero */
+#hero {
+    background-image: url(../img/Hero.png);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+li .nav-link {
+    color: #fff !important;
+    /* font-weight: bold; */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70%;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.content h2 span {
+    font-weight: bold;
+}
+
+.content .btn {
+    width: 170px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+/* akhir hero */
+
+/* about */
+.container {
+    /* width: 1366px !important; */
+}
+
+#about {
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px 0 100px 0;
+}
+
+#about img {
+    padding-top: 50px;
+}
+
+#about .about {
+    text-align: end;
+    padding-top: 170px;
+}
+
+/* akhir about */
