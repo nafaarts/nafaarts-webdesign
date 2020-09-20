@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous">
     </script>
     <script src="./assets/parallax.js"></script>
@@ -56,7 +57,7 @@
             <!-- akhir navbar -->
 
             <!-- content -->
-            <div class="content">
+            <div class="content" data-aos="fade-up">
                 <h2>Hey, you are in our space.. <br> Lets do <b>something</b>!</h2>
                 <hr style="border: 1px solid #fff; width: 300px;">
                 <button class="btn btn-outline-light mt-3 rounded-pill">let's discuss</button>
@@ -93,10 +94,10 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="300">
                     <img src="./img/about.svg" height="511">
                 </div>
-                <div class="col-lg-6 about">
+                <div class="col-lg-6 about" data-aos="fade-down" data-aos-delay="400">
                     <h3 class="mb-3"><b>About</b> Us</h3>
                     <p>Nafaarts are a small company based in Banda Aceh, Aceh<br>we make projects for several
                         organizations, companies and schools<br>we make website, mobile and desktop
@@ -110,14 +111,14 @@
 
     <section id="services">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center" data-aos="fade-down" data-aos-delay="500">
                 <h3><b>Services</b></h3>
                 <hr style="width: 10%;">
                 <p>we will make your Awesome ..</p>
             </div>
             <div class="row mt-5">
                 <div class="col-md-4">
-                    <div class="card service">
+                    <div class="card service" data-aos="flip-left" data-aos-delay="600">
                         <div class="icon text-white" style="background-color: #E74C3C;">
                             <i class="fas fa-globe fa-6x"></i>
                         </div>
@@ -127,7 +128,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card service">
+                    <div class="card service" data-aos="flip-left" data-aos-delay="700">
                         <div class="icon text-white" style="background-color: #F39C12;">
                             <i class="ml-2 fas fa-mobile-alt fa-6x"></i>
                         </div>
@@ -138,7 +139,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card service">
+                    <div class="card service" data-aos="flip-left" data-aos-delay="800">
                         <div class="icon text-white" style="background-color: #122639;">
                             <i class="fas fa-pen-nib fa-6x"></i>
                         </div>
@@ -152,7 +153,7 @@
     </section>
 
     <section id="banner">
-        <div class="banner d-flex justify-content-center">
+        <div class="banner d-flex justify-content-center" data-aos="flip-down" data-aos-delay="500">
             <div class="text-center text-white align-self-center">
                 <h1><b>Need our service ?</b></h1>
                 <p>we will give the best for you</p>
@@ -224,7 +225,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
