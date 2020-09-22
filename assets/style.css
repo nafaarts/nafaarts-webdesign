@@ -9,7 +9,7 @@ body {
 /* hero */
 #hero {
 
-    background-image: url(../img/orang-biru.png), url(../img/orang-kuning.png), url(../img/orang-merah.png), url(../img/Bintang-blur.png), url(../img/planet-merah.png), url(../img/planet-biru.png), url(../img/planet-kuning.png);
+    background-image: url(../img/orang-biru.png), url(../img/orang-kuning.png), url(../img/orang-merah.png), url(../img/planet-merah.png), url(../img/planet-biru.png), url(../img/planet-kuning.png), url(../img/Bintang-blur.png);
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
@@ -21,10 +21,9 @@ body {
 }
 
 .gradient {
-    /* background: repeat rgb(27, 23, 48); */
     background: linear-gradient(90deg, rgba(27, 23, 48, 1) 0%, rgba(9, 51, 65, 1) 100%) !important;
-    /* background-size: cover; */
     background-attachment: fixed;
+
 }
 
 li .nav-link {
@@ -168,4 +167,59 @@ li .nav-link {
     height: 289px;
     padding: 120px 0 100px 0;
     background: #F2F2F2;
+}
+
+/* Developers */
+
+#developers {
+    /* height: 500px; */
+    padding: 100px 0 100px 0;
+    background: #132337;
+    color: #fff;
+}
+
+#developers .developer-photo {
+    height: 130px;
+    width: 130px;
+    background: #fff;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#developers .developer-social-media {
+    height: 130px;
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transition: .3s;
+}
+
+#developers .developer:hover .developer-social-media {
+    opacity: 1;
+}
+
+
+#developers .developer-social-media ul {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#developers .developer-social-media ul li {
+    display: inline;
+}
+
+#developers .developer-social-media ul a {
+    color: #132337;
+    transition: .3s;
+}
+
+#developers .developer-social-media ul a:hover {
+    color: #fff;
 }
