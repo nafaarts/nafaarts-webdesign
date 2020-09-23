@@ -164,9 +164,25 @@ li .nav-link {
 /* clients */
 
 #clients {
-    height: 289px;
-    padding: 120px 0 100px 0;
+    height: auto;
+    padding: 20px 0 100px 0;
     background: #F2F2F2;
+}
+
+.clients {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.clients img {
+    height: 100px;
+    display: block;
+    filter: grayscale(1);
+}
+
+.clients img:hover,
+:target {
+    filter: grayscale(0);
 }
 
 /* Developers */
@@ -222,4 +238,12 @@ li .nav-link {
 
 #developers .developer-social-media ul a:hover {
     color: #fff;
+}
+
+
+/* responsive breakpoint */
+@media screen and (max-width: 576px) {
+    .clients {
+        gap: 30px;
+    }
 }
