@@ -275,6 +275,41 @@ li .nav-link {
     height: 50px;
 }
 
+/* contact */
+#contact {
+    padding: 90px 0 50px 0;
+}
+
+#contact iframe {
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+#contact input {
+    background-color: #F2F2F2;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+#contact textarea {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+}
+
+#contact input::placeholder {
+    font-size: 14px !important;
+}
+
+#contact button {
+    background-color: #0C2E3E;
+    border-radius: 10px;
+    width: 275px;
+    height: 50px;
+}
+
+
 /* responsive breakpoint */
 @media screen and (max-width: 576px) {
     .clients {
