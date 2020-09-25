@@ -58,10 +58,6 @@ li .nav-link {
 /* akhir hero */
 
 /* about */
-.container {
-    /* width: 1366px !important; */
-}
-
 #about {
     font-family: 'Montserrat', sans-serif;
     padding: 100px 0 100px 0;
@@ -281,6 +277,11 @@ li .nav-link {
         overflow-x: hidden;
     }
 
+    /* navbar */
+    .navbar {
+        z-index: 999 !important;
+    }
+
     /* hero */
     .content h2 {
         font-size: 32px;
@@ -292,7 +293,8 @@ li .nav-link {
     }
 
     #about .about {
-        padding-top: 70px;
+        padding: 70px 20px 0;
+
     }
 
     #about .about br {
