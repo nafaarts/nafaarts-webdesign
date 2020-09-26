@@ -65,6 +65,7 @@ li .nav-link {
 
 #about img {
     padding-top: 50px;
+    height: 511px;
 }
 
 #about .about {
@@ -116,6 +117,7 @@ li .nav-link {
     border-radius: 20px;
     background-image: url(../img/banner.svg);
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
@@ -166,7 +168,8 @@ li .nav-link {
 }
 
 #clients img {
-    height: 80px;
+    height: 100px;
+    margin: 20px;
     filter: grayscale(1);
 }
 
@@ -264,6 +267,59 @@ li .nav-link {
     height: 50px;
 }
 
+/* footer */
+
+footer {
+    background: #F7941E;
+}
+
+footer img {
+    height: 100px;
+    margin-left: -25px;
+}
+
+footer .footer {
+    padding: 50px 0 50px 0;
+    background: #132337;
+    border-radius: 0 200px 0 0;
+    color: #fff;
+}
+
+footer .footer p {
+    font-size: 14px;
+}
+
+footer .footer ul {
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+}
+
+footer .footer li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+footer .footer .social-media {
+    background-color: #fff;
+    margin-right: 10px;
+    padding-left: 3px;
+    color: #132337;
+    font-size: 20px;
+    display: inline-block;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 5px;
+}
+
+footer .footer .social-media:hover {
+    background-color: #132337;
+    color: #fff;
+}
+
+footer .footer a {
+    color: #fff;
+}
 
 /* responsive breakpoint */
 @media screen and (max-width: 576px) {
@@ -282,7 +338,12 @@ li .nav-link {
     }
 
     /* about */
+    #about {
+        padding-top: 0;
+    }
+
     #about img {
+        height: auto;
         width: 98%;
     }
 
