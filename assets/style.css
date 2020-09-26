@@ -58,10 +58,6 @@ li .nav-link {
 /* akhir hero */
 
 /* about */
-.container {
-    /* width: 1366px !important; */
-}
-
 #about {
     font-family: 'Montserrat', sans-serif;
     padding: 100px 0 100px 0;
@@ -161,27 +157,20 @@ li .nav-link {
     background-color: #C4C4C4;
 }
 
-/* clients */
 
+/* clients */
 #clients {
     height: auto;
     padding: 20px 0 100px 0;
     background: #F2F2F2;
 }
 
-.clients {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-}
-
-.clients img {
-    height: 70px;
-    margin: 20px;
-    display: block;
+#clients img {
+    height: 80px;
     filter: grayscale(1);
 }
 
-.clients img:hover,
+#clients img:hover,
 :target {
     filter: grayscale(0);
 }
@@ -282,6 +271,11 @@ li .nav-link {
         overflow-x: hidden;
     }
 
+    /* navbar */
+    .navbar {
+        z-index: 999 !important;
+    }
+
     /* hero */
     .content h2 {
         font-size: 32px;
@@ -293,7 +287,8 @@ li .nav-link {
     }
 
     #about .about {
-        padding-top: 70px;
+        padding: 70px 20px 0;
+
     }
 
     #about .about br {
