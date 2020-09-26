@@ -165,19 +165,12 @@ li .nav-link {
     background: #F2F2F2;
 }
 
-.clients {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-}
-
-.clients img {
-    height: 70px;
-    margin: 20px;
-    display: block;
+#clients img {
+    height: 80px;
     filter: grayscale(1);
 }
 
-.clients img:hover,
+#clients img:hover,
 :target {
     filter: grayscale(0);
 }
