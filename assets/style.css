@@ -171,11 +171,12 @@ li .nav-link {
 
 .clients {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
 .clients img {
-    height: 100px;
+    height: 70px;
+    margin: 20px;
     display: block;
     filter: grayscale(1);
 }
