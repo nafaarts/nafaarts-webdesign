@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
 }
 
 /* hero */
@@ -113,7 +114,8 @@ li .nav-link {
 
 #banner .banner {
     height: 430px;
-    width: 1169px;
+    /* width: 1169px; */
+    width: auto;
     border-radius: 20px;
     background-image: url(../img/banner.svg);
     background-size: cover;
@@ -324,7 +326,7 @@ footer .footer a {
 /* responsive breakpoint */
 @media screen and (max-width: 576px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     /* navbar */
