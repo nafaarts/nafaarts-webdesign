@@ -109,13 +109,11 @@ li .nav-link {
 #banner {
     height: 430px;
     background: linear-gradient(to bottom, #fff 50%, #F2F2F2 50%);
-    ;
 }
 
 #banner .banner {
     height: 430px;
-    /* width: 1169px; */
-    width: auto;
+    width: 86%;
     border-radius: 20px;
     background-image: url(../img/banner.svg);
     background-size: cover;
@@ -371,8 +369,12 @@ footer .footer a {
     /* banner */
     #banner .banner {
         height: 360px;
-        width: auto;
-        margin: 5px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .banner h1 {
+        font-size: 2em;
     }
 
 
@@ -393,8 +395,8 @@ footer .footer a {
 
 
     /* clients */
-    .clients {
-        gap: 30px;
+    #clients img {
+        height: 50px;
     }
 
     /* contact */
